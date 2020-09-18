@@ -30,3 +30,4 @@
 .\objects\bsp_dma_mtp.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\bsp_dma_mtp.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\objects\bsp_dma_mtp.o: F:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bsp_dma_mtp.o: .\User\usart\bsp_usart.h

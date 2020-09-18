@@ -121,6 +121,8 @@ void Usart_SentStr(USART_TypeDef* pUSARTx,uint8_t *str){
 	while(USART_GetFlagStatus(pUSARTx, USART_FLAG_TC) == RESET);
 }
 
+
+
 ///重定向c库函数printf到串口，重定向后可使用printf函数
 int fputc(int ch, FILE *f)
 {

@@ -28,12 +28,11 @@
 ".\objects\main.o"
 ".\objects\stm32f10x_it.o"
 ".\objects\bsp_led.o"
-".\objects\bsp_key.o"
-".\objects\bsp_rccclkconfig.o"
-".\objects\bsp_exti.o"
-".\objects\bsp_systick.o"
-".\objects\bsp_dma_mtm.o"
-".\objects\bsp_dma_mtp.o"
+".\objects\bsp_usart.o"
+".\objects\bsp_spi_flash.o"
+".\objects\diskio.o"
+".\objects\ff.o"
+".\objects\cc936.o"
 --library_type=microlib --strict --scatter ".\Objects\FW_LED.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

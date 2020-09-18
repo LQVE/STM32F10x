@@ -150,7 +150,7 @@ void SysTick_Handler(void)
 //	}	 
 //}
 
-///*中断处理函数千万不要写错了,找了一个小时*/
+///*中断处理函数千万不要写错了*/
 //void EXTI0_IRQHandler(void){
 //	//判断中断标志位是否置位
 //	if(EXTI_GetITStatus(EXTI_Line0)==SET){

@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F10X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Libraries\CMSIS;.\User;.\Libraries\STM32F10x_StdPeriph_Driver\inc;.\User\led;.\User\key;.\User\rcc;.\User\exti;.\User\systick;.\User\usart;.\User\dma</IncludePath>
+              <IncludePath>.\Libraries\CMSIS;.\User;.\Libraries\STM32F10x_StdPeriph_Driver\inc;.\User\led;.\User\key;.\User\rcc;.\User\exti;.\User\systick;.\User\usart;.\User\dma;.\User\i2c\i2c_hard;.\User\i2c\i2c_soft;.\User\flash;.\FATFS</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -542,34 +542,34 @@
               <FilePath>.\User\led\bsp_led.c</FilePath>
             </File>
             <File>
-              <FileName>bsp_key.c</FileName>
+              <FileName>bsp_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\key\bsp_key.c</FilePath>
+              <FilePath>.\User\usart\bsp_usart.c</FilePath>
             </File>
             <File>
-              <FileName>bsp_rccclkconfig.c</FileName>
+              <FileName>bsp_spi_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\rcc\bsp_rccclkconfig.c</FilePath>
+              <FilePath>.\User\flash\bsp_spi_flash.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>FATFS</GroupName>
+          <Files>
+            <File>
+              <FileName>diskio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\FATFS\diskio.c</FilePath>
             </File>
             <File>
-              <FileName>bsp_exti.c</FileName>
+              <FileName>ff.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\exti\bsp_exti.c</FilePath>
+              <FilePath>.\FATFS\ff.c</FilePath>
             </File>
             <File>
-              <FileName>bsp_systick.c</FileName>
+              <FileName>cc936.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\systick\bsp_systick.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_dma_mtm.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\dma\bsp_dma_mtm.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_dma_mtp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\dma\bsp_dma_mtp.c</FilePath>
+              <FilePath>.\FATFS\option\cc936.c</FilePath>
             </File>
           </Files>
         </Group>

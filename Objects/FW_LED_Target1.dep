@@ -1,8 +1,8 @@
 Dependencies for Project 'FW_LED', Target 'Target1': (DO NOT MODIFY !)
 F (.\Libraries\CMSIS\startup\startup_stm32f10x_hd.s)(0x5E463589)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
-F (.\Libraries\CMSIS\core_cm3.c)(0x5E4B62F1)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+F (.\Libraries\CMSIS\core_cm3.c)(0x5E4B62F1)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
 I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-F (.\Libraries\CMSIS\system_stm32f10x.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+F (.\Libraries\CMSIS\system_stm32f10x.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
 I (Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
 I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -32,7 +32,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -61,7 +61,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -90,7 +90,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -119,7 +119,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -148,7 +148,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -177,7 +177,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -206,7 +206,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -235,7 +235,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -264,7 +264,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -293,7 +293,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -322,7 +322,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -351,7 +351,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -380,7 +380,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -409,7 +409,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -438,7 +438,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -467,7 +467,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -496,7 +496,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -525,7 +525,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -554,7 +554,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -583,7 +583,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -612,7 +612,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -641,7 +641,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -670,7 +670,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
+F (.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x559784E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -699,7 +699,7 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\User\main.c)(0x5E4D3059)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\User\main.c)(0x5F609A0F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
 I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -728,11 +728,15 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
+I (.\User\usart\bsp_usart.h)(0x5E4C8CBD)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (.\User\led\bsp_led.h)(0x5E4D30EB)
 I (.\User\systick\bsp_systick.h)(0x5E4B64CC)
-I (.\User\dma\bsp_dma_mtp.h)(0x5E4D2A37)
-I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-F (.\User\stm32f10x_it.c)(0x5E4C9972)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (.\User\flash\bsp_spi_flash.h)(0x5C1898DC)
+I (.\FATFS\ff.h)(0x55EA74C2)
+I (.\FATFS\integer.h)(0x55EA74C2)
+I (.\FATFS\ffconf.h)(0x5F6099D4)
+F (.\User\stm32f10x_it.c)(0x5F4CE225)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
 I (User\stm32f10x_it.h)(0x559784D6)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -766,7 +770,7 @@ I (.\User\led\bsp_led.h)(0x5E4D30EB)
 I (.\User\exti\bsp_exti.h)(0x5E4B3E9E)
 I (.\User\usart\bsp_usart.h)(0x5E4C8CBD)
 I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-F (.\User\led\bsp_led.c)(0x5E4D302C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_led.o --omf_browse .\objects\bsp_led.crf --depend .\objects\bsp_led.d)
+F (.\User\led\bsp_led.c)(0x5E4D302C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_led.o --omf_browse .\objects\bsp_led.crf --depend .\objects\bsp_led.d)
 I (User\led\bsp_led.h)(0x5E4D30EB)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
@@ -796,158 +800,8 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\User\key\bsp_key.c)(0x5E460E14)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_key.o --omf_browse .\objects\bsp_key.crf --depend .\objects\bsp_key.d)
-I (User\key\bsp_key.h)(0x5E460E14)
-I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
-I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
-I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (.\Libraries\CMSIS\system_stm32f10x.h)(0x559784E0)
-I (.\User\stm32f10x_conf.h)(0x559784D5)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\User\rcc\bsp_rccclkconfig.c)(0x5E478200)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_rccclkconfig.o --omf_browse .\objects\bsp_rccclkconfig.crf --depend .\objects\bsp_rccclkconfig.d)
-I (User\rcc\bsp_rccclkconfig.h)(0x5E4781EE)
-I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
-I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
-I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (.\Libraries\CMSIS\system_stm32f10x.h)(0x559784E0)
-I (.\User\stm32f10x_conf.h)(0x559784D5)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\User\exti\bsp_exti.c)(0x5E4B4D33)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_exti.o --omf_browse .\objects\bsp_exti.crf --depend .\objects\bsp_exti.d)
-I (User\exti\bsp_exti.h)(0x5E4B3E9E)
-I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
-I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
-I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (.\Libraries\CMSIS\system_stm32f10x.h)(0x559784E0)
-I (.\User\stm32f10x_conf.h)(0x559784D5)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\User\systick\bsp_systick.c)(0x5E4B64EE)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_systick.o --omf_browse .\objects\bsp_systick.crf --depend .\objects\bsp_systick.d)
-I (User\systick\bsp_systick.h)(0x5E4B64CC)
-I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
-I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
-I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (.\Libraries\CMSIS\system_stm32f10x.h)(0x559784E0)
-I (.\User\stm32f10x_conf.h)(0x559784D5)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\User\dma\bsp_dma_mtm.c)(0x5E4D0B06)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_dma_mtm.o --omf_browse .\objects\bsp_dma_mtm.crf --depend .\objects\bsp_dma_mtm.d)
-I (User\dma\bsp_dma_mtm.h)(0x5E4D0AF0)
-I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
-I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
-I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-I (.\Libraries\CMSIS\system_stm32f10x.h)(0x559784E0)
-I (.\User\stm32f10x_conf.h)(0x559784D5)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
-I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
-F (.\User\dma\bsp_dma_mtp.c)(0x5E4D2AE9)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_dma_mtp.o --omf_browse .\objects\bsp_dma_mtp.crf --depend .\objects\bsp_dma_mtp.d)
-I (User\dma\bsp_dma_mtp.h)(0x5E4D2A37)
+F (.\User\usart\bsp_usart.c)(0x5F4CEB8F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_usart.o --omf_browse .\objects\bsp_usart.crf --depend .\objects\bsp_usart.d)
+I (User\usart\bsp_usart.h)(0x5E4C8CBD)
 I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
 I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
 I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -977,4 +831,79 @@ I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
 I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
 I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-F (.\Doc\readme.txt)(0x5E4D0B56)()
+F (.\User\flash\bsp_spi_flash.c)(0x5C1898DC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\bsp_spi_flash.o --omf_browse .\objects\bsp_spi_flash.crf --depend .\objects\bsp_spi_flash.d)
+I (.\User\./flash/bsp_spi_flash.h)(0x5C1898DC)
+I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
+I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Libraries\CMSIS\system_stm32f10x.h)(0x559784E0)
+I (.\User\stm32f10x_conf.h)(0x559784D5)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\FATFS\diskio.c)(0x5F603709)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (FATFS\diskio.h)(0x55EA74C2)
+I (FATFS\integer.h)(0x55EA74C2)
+I (FATFS\ff.h)(0x55EA74C2)
+I (FATFS\ffconf.h)(0x5F6099D4)
+I (.\User\./flash/bsp_spi_flash.h)(0x5C1898DC)
+I (.\Libraries\CMSIS\stm32f10x.h)(0x559784E0)
+I (.\Libraries\CMSIS\core_cm3.h)(0x5E4B6323)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\Libraries\CMSIS\system_stm32f10x.h)(0x559784E0)
+I (.\User\stm32f10x_conf.h)(0x559784D5)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x559784E0)
+I (.\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x559784E0)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\FATFS\ff.c)(0x55EA74C2)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (FATFS\ff.h)(0x55EA74C2)
+I (FATFS\integer.h)(0x55EA74C2)
+I (FATFS\ffconf.h)(0x5F6099D4)
+I (FATFS\diskio.h)(0x55EA74C2)
+F (.\FATFS\option\cc936.c)(0x55EA74C2)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Libraries\CMSIS -I .\User -I .\Libraries\STM32F10x_StdPeriph_Driver\inc -I .\User\led -I .\User\key -I .\User\rcc -I .\User\exti -I .\User\systick -I .\User\usart -I .\User\dma -I .\User\i2c\i2c_hard -I .\User\i2c\i2c_soft -I .\User\flash -I .\FATFS-I.\RTE\_Target1-IF:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\objects\cc936.o --omf_browse .\objects\cc936.crf --depend .\objects\cc936.d)
+I (FATFS\option\../ff.h)(0x55EA74C2)
+I (FATFS\option\../integer.h)(0x55EA74C2)
+I (FATFS\option\../ffconf.h)(0x5F6099D4)
+F (.\Doc\readme.txt)(0x5F4DD641)()
